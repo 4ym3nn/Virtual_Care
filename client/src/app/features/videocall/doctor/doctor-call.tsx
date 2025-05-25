@@ -7,7 +7,6 @@ import HeaderCall from "../header-call"
 import FooterCall from "../footer-call"
 import { Badge } from "@/components/ui/badge"
 import { TooltipProvider } from "@/components/ui/tooltip"
-import { SERVER_URL } from "../../../../../config"
 const socket: Socket = io("wss://default-server-production.up.railway.app", {
   secure: true,
   rejectUnauthorized: false,
