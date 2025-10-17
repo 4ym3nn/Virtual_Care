@@ -4,13 +4,13 @@ Welcome to the 2CP Project! This guide provides comprehensive instructions for s
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 You can view the deployed version of the project here: 👉 **[2CP Project Live](https://2cp-project-silk.vercel.app)**
 
 ---
 
-## 🛠️ Local Development Setup
+##  Local Development Setup
 
 ### Backend Setup
 
@@ -57,21 +57,19 @@ You can view the deployed version of the project here: 👉 **[2CP Project Live]
 
 ---
 
-## ✅ Requirements
+##  Requirements
 
 - **Node.js**: v16+ (recommended)  
 - **npm**: v7+ or v8+  
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ### Backend (`default-server/`)
 
 ```plaintext
 default-server/
-├── cert.pem               # SSL certificate (for HTTPS)
-├── key.pem                # SSL key
 ├── config/                # Configuration files
 ├── controlers/            # Controller logic
 ├── middlewares/           # Express middlewares
@@ -107,7 +105,7 @@ client/
 
 ---
 
-## 📦 Scripts
+##  Scripts
 
 ### Backend Scripts
 
@@ -122,19 +120,19 @@ client/
 
 ---
 
-## 🔐 Notes on HTTPS
+##  Notes on HTTPS
 
 If using SSL (`cert.pem` and `key.pem`) for either the backend or frontend, ensure the server is configured to use HTTPS in the respective `server.js` files.
 
 ---
 
-## 📡 Deployment
+##  Deployment
 
 The frontend of this project is deployed using **Vercel**. To deploy, connect your GitHub repository to Vercel for instant deployment.
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 For any issues during setup, refer to the `README.md` in the `client/` or `default-server/` directories or contact the project maintainer.  
 
